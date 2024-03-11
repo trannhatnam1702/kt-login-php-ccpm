@@ -13,12 +13,12 @@
                 <h5>Đăng nhập</h5>
                 <form action="result.php" method="post">
                     <div class="form-group">
-                        <label><b>Tên đăng nhập</b></label>
-                        <input type="text" name="username" class="form-control" required>
+                        <label><b>Username</b></label>
+                        <input type="text" name="txtUsername" class="form-control" required>
                     </div>
                     <div class="form-group">
                         <label><b>Mật khẩu</b></label>
-                        <input type="password" name="password" class="form-control" required>
+                        <input type="password" name="txtmatkhau" class="form-control" required>
                     </div>
                 </form>
             </div>
