@@ -17,7 +17,7 @@
                         $password = $_POST["txtPassword"];
 
                         if($username == "admin" && $password == "admin")
-                            echo "Đăng nhập thành công";
+                            echo "Đăng nhập thành công!";
                         else
                             echo "Tên đăng nhập/Mật khẩu sai. <a href=", "login.php", ">Vui lòng nhập lại!</a>";
                     ?>
